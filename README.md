@@ -7,7 +7,7 @@
 ## Description  
 The Analysis Of Record for Calibration (AORC) is a gridded record of near-surface  weather conditions covering the continental United States and Alaska and their  hydrologically contributing areas. It is defined on a latitude/longitude spatial grid with a mesh length of 30 arc seconds (~800 m), and a temporal resolution of one hour.  Elements include hourly total precipitation, temperature, specific humidity, terrain-level  pressure, downward longwave and shortwave radiation, and west-east and south-north wind components. It spans the period from 1979 across the Continental U.S. (CONUS) and from 1981 across Alaska, to the near-present (at all locations). This suite of eight variables is sufficient to drive most land-surface and hydrologic models and is used as input to the National Water Model (NWM) retrospective simulation. While the native AORC process generates netCDF output, the data is post-processed to create a cloud optimized Zarr formatted equivalent for dissemination using cloud technology and infrastructure.  The data is currently hosted on NOAA Open Data Dissemination (NODD).
 
-The Jupyter Notebook provides examples on how to access the AORC Zarr data.  A link to [NBViewer](https://nbviewer.org/github/NOAA-OWP/AORC/blob/master/ExploreZarr.ipynb) is included with the AORC NODD landing page.  
+The Jupyter Notebook provides examples on how to access the AORC Zarr data.  A link to [NBViewer](https://nbviewer.org/github/NOAA-OWP/AORC/blob/master/jupyter_notebooks/AORC_Zarr_notebook.ipynb) is included with the AORC NODD landing page.  
 
 ## Dependencies
 
